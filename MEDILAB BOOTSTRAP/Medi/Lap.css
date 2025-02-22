@@ -1,0 +1,115 @@
+/* @media screen and (max-width:1400px){
+    .html{
+ width:100%;
+ display: inline-block;
+ padding-left: 40px;
+     }
+ }
+@media screen and (max-width:1024px){
+   .hello{
+width:100%;
+display: inline-block;
+padding-left: 40px;
+    }
+}
+@media screen and (max-width:600px){
+    .total{
+ width:100%;
+     }
+ }
+ @media screen and (min-width:601px){
+    .total{
+ width:100%;
+     }
+ }
+ @media screen and (min-width:600px){
+    .doctor{
+ width:100%;
+     }
+ }
+ @media screen and (max-width:1100px){
+    .doctor{
+ width:100%;
+     }
+ }
+ @media screen and (max-width:600px){
+    .para{
+       width: 100%;
+       height: 100%;
+     }
+ }
+ @media screen and (min-width:610px){
+    .para{
+ width:100%;
+ height: 100%;
+     }
+ }
+ @media screen and (max-width:600px){
+    .Learn1{
+       width: 150px;
+     }
+ }
+ @media screen and (min-width:610px){
+    .Learn1{
+ width:100%;
+     }
+ } */
+/* CSS for screens smaller than 600 pixels wide */
+
+@media only screen and (max-width: 300px) {
+    body {
+        width: 100%;
+        display:block;
+    }
+}
+
+/* CSS for screens larger than 600 pixels wide */
+@media only screen and (min-width: 301px) {
+    body {
+        width: 100%;
+        display:flex;
+    }
+}
+@media only screen and (max-width: 301px) {
+    .Appointment {
+        width: 100%;
+        display:block;
+        height: 200%;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 301px) {
+    .Doctormain{
+        display:block;
+    
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .Services{
+        width: 100%;
+        display:block;
+    }
+}
+@media only screen and (min-width:426px) {
+    .Services{
+        width: 100%;
+    }
+}
+@media only screen and (min-width:426px) {
+    .Servicesload{
+        width: 100%;
+        display:inline-flex;
+    }
+}
+@media only screen and (min-width:426px) {
+    .bootstrapmade{
+        width: 100%;
+        display:inline-flex;
+    }
+}
+
+
+
+
+
